@@ -1,0 +1,26 @@
+{% extends "layout.html" %}
+
+{% block title %}
+Sign Out
+{% endblock %}
+
+{% block sidenav %}
+    <a href="/">Sign In Again</a>
+    
+{% endblock %}
+
+{% block main %}
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            // retrieve global name and store in DOM
+            document.querySelector('#sidename').innerHTML = localStorage.getItem('name');
+        });
+    </script>
+
+    <div id="signin">
+        <div id="sidename"></div>
+        <div>Signed Out</div>
+    </div>  
+
+{% endblock %}
+
