@@ -20,7 +20,7 @@ These pages, how they are implemented, and how they are to be used, are all desc
 
 ## Technologies
 
-The web app is implemented principally using Flask, Flask-SocketIO, and python3. The communication between the server and the client while the client is on the chat page is all done through socketio.
+The web app is implemented principally using Flask, Flask-SocketIO, javascript, and python3. The communication between the server and the client while the client is on the chat page is all done through socketio.
 
 ## Data Structure
 
@@ -84,6 +84,6 @@ The chat page is the main functional page of the app. This page is not reloaded,
 
 - This page identifies the user who just signed out, and offers a clickable area to Sign In Again.
 
-## Requirements
+## Requirements and Personal Touch
 
 The app satisfies the requirements set forth in the Project2 class specification. In addition, the app includes as a "personal touch" additional functionality keeping track of and dynamically displaying the number of active users and the names of all users in the currently selected channel.
