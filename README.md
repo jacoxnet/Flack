@@ -1,14 +1,10 @@
-# Project 2
-
-Web Programming with Python and JavaScript
-
-## CX Flack
-
-This project was prepared to satisfy project2 in the online version fo this class.
+# CX Flack
 
 ## Introduction
 
 **CX Flack** is a web application that allows users to chat with each other in different chat rooms or **channels**. The basic functions of the program are:
+
+This project was prepared to satisfy project2 in the online version for CS50x Web Programming with Python and JavaScript
 
 - *Sign in*. The user can sign in with any name she chooses, and can also choose an initial channel to start with. The local app remembers the last sign in and channel and will display those if available.
 
